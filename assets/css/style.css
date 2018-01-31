@@ -1,0 +1,44 @@
+header{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	border-bottom-style: solid;
+	border-bottom-color: #ccc;
+	border-bottom-width: 2px;
+	height: 50px;
+	margin: 0;
+}
+
+body{
+	background-image: url("../images/spiration-light.png");
+}
+
+.nameBlock{
+	height: 50px;
+	background-color: #4aaaa5;
+	position: absolute;
+	left: 10%;
+	top: 0;
+	color: #fff;
+	padding: 10px;
+	z-index: 2;
+}
+
+#headshot{
+	float: left;
+}
+
+#nameBlockHeading{
+	margin: 0;
+	font-size: 30px;
+}
+
+h1{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+footer{
+	height: 10%;
+}
