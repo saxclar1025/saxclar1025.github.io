@@ -8,7 +8,7 @@
 </head>
 <body>
 	<header>
-		<div class="nameBlock">
+		<div id="header-block" class="teal-text-block">
 			Samuel Falcon
 		</div>
 		<nav>
@@ -19,12 +19,19 @@
 	<section id="main">
 		<h1>Contact</h1>
 		<hr>
-		Name
-
+		<form>
+			Name
+			<input type="text" name="nameInput" value="John Smith">
+			Email
+			<input type="Email" name="emailInput" value="example@gmail.com">
+			Message
+			<textarea name="messageInput"></textarea>
+			<input id="submit" type="submit" name="submitContact" value="Submit">
+		</form>
 	</section>
 
 	<section id="connect">
-		<h1 id="connectHeading">Connect with Me</h1>
+		<h1 id="connect-heading">Connect with Me</h1>
 		<hr>
 		<a href="https://github.com/saxclar1025">
 			<img class="icon" src="assets/images/if_github_square_black_107109.png">
